@@ -5,7 +5,7 @@ import menuFactory from '../menuFactory';
 const styles = {
 
   menuWrap(isOpen, width, right, top, bottom) {
-    let transform = (!top && !bottom) ? 'translate3d(0, -100%, 0)' : `translate3d(-100%, 0, 0)`;
+    let transform = (!top && !bottom) ? 'translate3d(0, -112%, 0)' : `translate3d(-100%, 0, 0)`;
 
     return {
       MozTransform: isOpen ? '' : transform,

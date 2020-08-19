@@ -1259,7 +1259,7 @@ var styles = {
         menuWrap: function menuWrap(isOpen, width, right, top, bottom) {
             var transform = right ? 'translate3d(100%, 0, 0)' : 'translate3d(-100%, 0, 0)';
             if (top)
-                transform = 'translate3d(0, -100%, 0)';
+                 transform = 'translate3d(0, -112%, 0)';
             if (bottom)
                 transform = 'translate3d(0, 100%, 0)';
             return {
@@ -1728,7 +1728,7 @@ var styles = {
         menuWrap: function menuWrap(isOpen, width, right, top, bottom) {
             var transform = right ? 'translate3d(100%, 0, 0)' : 'translate3d(-100%, 0, 0)';
             if (top)
-                transform = 'translate3d(0, -100%, 0)';
+                 transform = 'translate3d(0, -112%, 0)';
             if (bottom)
                 transform = 'translate3d(0, 100%, 0)';
             return {
@@ -1824,7 +1824,7 @@ var styles = {
         menuWrap: function menuWrap(isOpen, width, right, top, bottom) {
             var transform = right ? 'translate3d(100%, 0, 0)' : 'translate3d(-100%, 0, 0)';
             if (top)
-                transform = 'translate3d(0, -100%, 0)';
+                 transform = 'translate3d(0, -112%, 0)';
             if (bottom)
                 transform = 'translate3d(0, 100%, 0)';
             return {
@@ -1887,7 +1887,7 @@ var _menuFactory = require('../menuFactory');
 var _menuFactory2 = _interopRequireDefault(_menuFactory);
 var styles = {
         menuWrap: function menuWrap(isOpen, width, right, top, bottom) {
-            var transform = !top && !bottom ? 'translate3d(0, -100%, 0)' : 'translate3d(-100%, 0, 0)';
+           var transform = !top && !bottom ? 'translate3d(0, -112%, 0)' : 'translate3d(-100%, 0, 0)';
             return {
                 MozTransform: isOpen ? '' : transform,
                 MsTransform: isOpen ? '' : transform,

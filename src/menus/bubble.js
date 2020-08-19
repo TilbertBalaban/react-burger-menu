@@ -55,7 +55,7 @@ const styles = {
   menuWrap(isOpen, width, right, top, bottom) {
     let transform = right ? 'translate3d(100%, 0, 0)' : 'translate3d(-100%, 0, 0)';
     if (top)
-      transform = 'translate3d(0, -100%, 0)';
+       transform = 'translate3d(0, -112%, 0)';
     if (bottom)
       transform = 'translate3d(0, 100%, 0)';
 
